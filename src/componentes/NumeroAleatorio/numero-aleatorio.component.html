@@ -1,0 +1,5 @@
+<div>
+  <input type="number" [(ngModel)]="cantidad" placeholder="Cantidad de numeros a generar">
+  <button (click)="generarNumero()">Generar números</button>
+  <p>Números generados: {{numerosGenerados.join(', ')}}</p>
+</div>
